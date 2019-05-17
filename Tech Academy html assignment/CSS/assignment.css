@@ -1,1 +1,14 @@
-just trying
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: auto;
+  margin-top: 2%;
+  border: 4px double blue;
+  border-radius: 7px;
+}
+
+body {
+  font-size: 1em;
+  font-family: helvetica, arial, sans-serif;
+}

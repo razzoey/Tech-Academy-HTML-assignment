@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./css/assignment.css">
     <title>Account creation page</title>
   </head>
   <body>
@@ -30,10 +30,12 @@
       <div class="">
         <div class="form_header"><strong>Please Create an Account:</strong></div>
         <form class="" action="" method="post">
-          <input type="text" name="first_name" placeholder="First name" value=""><br>
+          <div class="input_width">
+          <input class="input_width" type="text" name="first_name" placeholder="First name" value=""><br>
           <input type="text" name="last_name" placeholder="Last name" value=""><br>
           <input type="email" name="email" placeholder="Email address" value=""><br>
           <input type="password" name="password" placeholder="Password" value=""><br>
+        </div>
           <p>Please select the types of photos you'd like to view: </p>
           <input type="checkbox" name="photo_preference" value="space">Space Photos
           <input type="checkbox" name="photo_preference" value="sports">Sports Photos
